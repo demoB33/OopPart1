@@ -144,7 +144,7 @@ public class Car {
     }
     public static String validateBodyType (String bodyType){
         if (bodyType.isEmpty() || bodyType.isBlank() || bodyType == null) {
-            bodyType = "Default";
+            bodyType = "Defaul1";
         }
         return bodyType;
     }
